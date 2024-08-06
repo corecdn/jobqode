@@ -187,6 +187,15 @@
         left: 0;
       }
     </style>
+
+         <style>
+          .search-bar {
+              margin-bottom: 20px;
+          }
+          .table td, .table th {
+              vertical-align: middle;
+          }
+      </style>
   </head>
   
 </head>
@@ -202,6 +211,7 @@
       <ul class="navbar-nav ml-auto">
           <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
           <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#offerings">Offerings</a></li>
           <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
       </ul>
@@ -229,10 +239,15 @@
             <h2 class="section-title">About Us</h2>
             <div class="row">
                 <div class="col-md-6">
-                  <p>At Red Lines Contracting Company, our committed team excels in cultivating and nurturing progressive relationships with both current and potential clients. This dedication is central to our business's long-term success and sustainability.</p>
-                  <p>We have assembled a team of certified hardware and software professionals, continuously investing in their development through rigorous training. This ensures our team is well-equipped to tackle any challenges and consistently deliver superior quality work.</p>
-                  <p>We invite you to reach out to us to explore how our expertise can meet your needs. Contact us today to discuss how we can support your projects and contribute to your success.</p>
-                  
+                  <p>Red Lines Contracting Company is a customer-oriented Engineering Firm specializing in Industrial Automation, Electrical, Instrumentation, and Fire & Safety solutions. With a far-reaching vision of adding value to society and industry, we have been transforming the sector since 2002.</p>
+                  <h4>Our Strengths</h4>
+                  <ul>
+                      
+                      <li>Certified hardware & software professionals</li>
+                      <li>Expertise across various control platforms</li>
+                      <li>Specialization in firefighting and alarm systems</li>
+                      <li>Dedicated marketing team</li>
+                  </ul>
                 </div>
                 <div class="col-md-6">
                     <img src="https://placehold.co/600x400" class="img-fluid" alt="About Us">
@@ -355,37 +370,163 @@
           </div>
       </div>
   </section>
+
+  <!--offerings-->
+  <div class="container" id="offerings">
+    <h2 class="section-title">Our Comprehensive Offerings</h2>
+    
+    <!-- Search Bar -->
+    <div class="search-bar">
+        <input class="form-control" id="searchInput" type="text" placeholder="Search for offerings...">
+    </div>
+
+    <!-- Table -->
+    <table class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Offering</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody id="offeringsTable">
+            <tr>
+                <td>1</td>
+                <td>Fire Suppression System</td>
+                <td>Fixed and Portable fire extinguisher system, Vehicle Fire Suppression, Dry Chemical form and gaseous extinguishing agent, Sprinkler and watermist system</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Fire & Security Solutions</td>
+                <td>Fire alarm and detection systems, Beam detection, Very Early Smoke Detection Aspiration System (VESDA), Fire suppression systems (NOVEC, FM200, CO2)</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Low Current Solutions</td>
+                <td>Access Control, CCTV, Cable, UPS & Battery Chargers</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Engineering Services</td>
+                <td>Providing trusted Engineering Services with a team based in Pune, India.</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Turnkey Solutions</td>
+                <td>End-to-end solutions for Process automation, Electrical, Building & Smart Infrastructure, Smart Factories, and industrial security & Fire Alarm Systems.</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Panel Manufacturing</td>
+                <td>Design, fabrication, building, testing, installation, and commissioning of control panels.</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Advanced Software</td>
+                <td>Providing cutting-edge software solutions for industrial applications.</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Automation Control System</td>
+                <td>Comprehensive automation solutions for various industries.</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Field Instruments</td>
+                <td>Transmitters (HART/ Conventional), Gauges, Analytical Instruments, Switches</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Smart Metering</td>
+                <td>Electricity Solution, Water Solution, Gas Solution</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Tank Farm Management System</td>
+                <td>All-time monitoring for overfill protection, leak detection, Alarming to mitigate or prevent possible disasters, Protect the tank farm's people and environment</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Thermal Solutions</td>
+                <td>Burners, Blowers, Burner Control System, Pre-piped Gas/Oil/LP Manifold</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>HVAC Solutions</td>
+                <td>Design and Implementation, Duct-sheet Metal Fabrication, System Testing and Maintenance</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>Building Management System</td>
+                <td>Native Smart Home, iBMS - HVAC Control, Solar Power & Power Storage, Parking Management, Environmental Management</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>VESDA</td>
+                <td>Very Early Smoke Detection Aspiration system for efficient smoke control, HVAC, and egress routes.</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+  
   
     <!-- Major Projects -->
 <!-- Major Projects -->
-<section id="projects" class="section projects" style="background-color: #fff;">
+<section id="projects" class="section projects" style="background: #f9f9f9;">
   <div class="container">
       <h2 class="section-title">Major Projects</h2>
       <div class="row">
           <div class="col-md-4 project-item">
               <div class="card">
-                  <img src="https://placehold.co/600x400" class="card-img-top img-fluid" alt="Project 1">
+                  <img src="https://placehold.co/600x400" class="card-img-top img-fluid" alt="Hail Power Plant">
                   <div class="card-body">
-                      <h4 class="card-title">Project 1</h4>
-                      <p class="card-text">Supply, Installation, Testing and Commissioning of NOVEC System at Hail Power Plant.</p>
+                      <h4 class="card-title">Hail Power Plant</h4>
+                      <p class="card-text">Supply, Testing & Commissioning of Honeywell Notifier FAS - Hail Power Plant (Riyadh & Qassim) in 2020-2021.</p>
                   </div>
               </div>
           </div>
           <div class="col-md-4 project-item">
               <div class="card">
-                  <img src="https://placehold.co/600x400" class="card-img-top img-fluid" alt="Project 2">
+                  <img src="https://placehold.co/600x400" class="card-img-top img-fluid" alt="NOVEC System">
                   <div class="card-body">
-                      <h4 class="card-title">Project 2</h4>
-                      <p class="card-text">Supply, Installation, Testing and Commissioning of Fire Detection, Access Control, CCTV and Smoke Management System, Gas Detection System, Security Barriers, Public Addressing, Voice Evacuation Systems and LPG Pipe Corrosion Protection Coating.</p>
+                      <h4 class="card-title">NOVEC System Installation</h4>
+                      <p class="card-text">Supply, Installation, Testing and Commissioning of NOVEC System in 2020-2021.</p>
                   </div>
               </div>
           </div>
           <div class="col-md-4 project-item">
               <div class="card">
-                  <img src="https://placehold.co/600x400" class="card-img-top img-fluid" alt="Project 3">
+                  <img src="https://placehold.co/600x400" class="card-img-top img-fluid" alt="Integrated Safety Systems">
                   <div class="card-body">
-                      <h4 class="card-title">Project 3</h4>
-                      <p class="card-text">Supply, Installation, Testing and Commissioning of Fire Alarm System at King Abdulaziz Center for World Culture.</p>
+                      <h4 class="card-title">Integrated Safety Systems</h4>
+                      <p class="card-text">Supply, Installation, Testing and Commissioning of Fire Detection, Access Control, CCTV, Smoke Management, Gas Detection, Security Barriers, Public Addressing, Voice Evacuation Systems and LPG Pipe Corrosion Protection Coating in 2017.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 project-item">
+              <div class="card">
+                  <img src="https://placehold.co/600x400" class="card-img-top img-fluid" alt="King Abdulaziz Center">
+                  <div class="card-body">
+                      <h4 class="card-title">King Abdulaziz Center for World Culture</h4>
+                      <p class="card-text">Supply, Installation, testing and commissioning of Fire Fighting and Fire Alarm System, FM200 (Interfacing with BMS, CCTV, Access Control, Voice Evacuation) from 2017-2019.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 project-item">
+              <div class="card">
+                  <img src="https://placehold.co/600x400" class="card-img-top img-fluid" alt="Saudi Aramco Project">
+                  <div class="card-body">
+                      <h4 class="card-title">Saudi Aramco QATIF GOSP-1 & FSR</h4>
+                      <p class="card-text">Supply, Installation, Supervision, Testing & Commissioning of FM200, Fire Detection, and Fire Fighting Systems in 2017.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 project-item">
+              <div class="card">
+                  <img src="https://placehold.co/600x400" class="card-img-top img-fluid" alt="Saudi ARAMCO Pipeline">
+                  <div class="card-body">
+                      <h4 class="card-title">Saudi ARAMCO East-West Pipeline</h4>
+                      <p class="card-text">Supply, Testing & Commissioning of Fire Alarm System And Novec 1230 for Saudi ARAMCO East-West Pipeline in 2017.</p>
                   </div>
               </div>
           </div>
@@ -394,32 +535,27 @@
 </section>
 
     <!-- Contact Us -->
-    <section id="contact" class="section" style="background-color: #f9f9f9;">
+    <section id="contact" class="section" style="background-color: #fff;">
         <div class="container">
             <h2 class="section-title">Contact Us</h2>
             <div class="row">
-                <div class="col-md-6">
-                    <form class="contact-form">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" class="form-control" id="name" placeholder="Your Name">
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" class="form-control" id="email" placeholder="Your Email">
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Send Message</button>
-                    </form>
+              <div class="col-md-6">
+                <div class="google-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3573.1358053819195!2d50.201298015018715!3d26.424796883346973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e49e7aac64cf6c7%3A0x97ad2a5ba6f944ce!2sRed%20Lines%20Contracting%20Company!5e0!3m2!1sen!2sus!4v1659457083739!5m2!1sen!2sus" 
+                        width="100%" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
                 </div>
+            </div>
                 <div class="col-md-6">
-                    <h3>Contact Information</h3>
-                    <p><strong>Address:</strong> Your Company Address</p>
-                    <p><strong>Phone:</strong> +966-13-8947674</p>
-                    <p><strong>Email:</strong> info@relcoglobal.com</p>
+                  <h3>Contact Information</h3>
+                  <p><strong>Address:</strong> Red Lines Contracting Company, Saudi Arabia</p>
+                  <p><strong>Phone:</strong> <a href="tel:+966138947674">+966-13-8947674</a></p>
+                  <p><strong>Email:</strong> <a href="mailto:info@relcoglobal.com">info@relcoglobal.com</a></p>
                 </div>
             </div>
         </div>
@@ -546,6 +682,21 @@
           retina_detect: true
       });
   </script>
+   <script>
+    // JavaScript for search functionality
+    document.getElementById('searchInput').addEventListener('keyup', function() {
+        var searchTerm = this.value.toLowerCase();
+        var rows = document.querySelectorAll('#offeringsTable tr');
+        rows.forEach(function(row) {
+            var cells = row.getElementsByTagName('td');
+            var text = '';
+            for (var i = 1; i < cells.length; i++) { // Skip the first column
+                text += cells[i].textContent.toLowerCase() + ' ';
+            }
+            row.style.display = text.indexOf(searchTerm) !== -1 ? '' : 'none';
+        });
+    });
+</script>
   
 </body>
 </html>
